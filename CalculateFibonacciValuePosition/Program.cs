@@ -2,25 +2,6 @@
 
 namespace CalculateFibonacciValuePosition
 {
-    public class Fibonacci
-    {
-        public int CalculateFibonacci(int position)
-        {
-            if (position <= 0)
-            {
-                return 0;
-            }
-            else if (position == 1)
-            {
-                return 1;
-            }
-            else
-            {
-                return CalculateFibonacci(position - 1) + CalculateFibonacci(position - 2);
-            }
-        }
-    }
-
     public class Program
     {
         static void Main(string[] args)
