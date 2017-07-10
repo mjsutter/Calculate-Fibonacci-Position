@@ -1,5 +1,0 @@
-c:\users\matt\documents\visual studio 2017\Projects\CalculateFibonacciValuePosition\CalculateFibonacciValuePosition\bin\Debug\CalculateFibonacciValuePosition.exe.config
-c:\users\matt\documents\visual studio 2017\Projects\CalculateFibonacciValuePosition\CalculateFibonacciValuePosition\bin\Debug\CalculateFibonacciValuePosition.exe
-c:\users\matt\documents\visual studio 2017\Projects\CalculateFibonacciValuePosition\CalculateFibonacciValuePosition\bin\Debug\CalculateFibonacciValuePosition.pdb
-c:\users\matt\documents\visual studio 2017\Projects\CalculateFibonacciValuePosition\CalculateFibonacciValuePosition\obj\Debug\CalculateFibonacciValuePosition.exe
-c:\users\matt\documents\visual studio 2017\Projects\CalculateFibonacciValuePosition\CalculateFibonacciValuePosition\obj\Debug\CalculateFibonacciValuePosition.pdb
