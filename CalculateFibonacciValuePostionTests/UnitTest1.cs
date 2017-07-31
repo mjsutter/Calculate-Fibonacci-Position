@@ -19,7 +19,7 @@ namespace CalculateFibonacciValuePostionTests
             //act
             int actualValue = fibonacci.CalculateFibonacci(postion);
 
-            //asert
+            //assert
             Assert.AreEqual(expectedValue, actualValue);
         }
 
@@ -30,6 +30,38 @@ namespace CalculateFibonacciValuePostionTests
             //assemble
             int postion = 40;
             int expectedValue = 102334155;
+            Fibonacci fibonacci = new Fibonacci();
+
+            //act
+            int actualValue = fibonacci.CalculateFibonacci(postion);
+
+            //assert
+            Assert.AreEqual(expectedValue, actualValue);
+        }
+
+        [TestCategory("UnitTest")]
+        [TestMethod]
+        public void CalculateFibonacci_Postion_0_Should_Return_0()
+        {
+            //assemble
+            int postion = 0;
+            int expectedValue = 0;
+            Fibonacci fibonacci = new Fibonacci();
+
+            //act
+            int actualValue = fibonacci.CalculateFibonacci(postion);
+
+            //assert
+            Assert.AreEqual(expectedValue, actualValue);
+        }
+
+        [TestCategory("UnitTest")]
+        [TestMethod]
+        public void CalculateFibonacci_Postion_Negative_Should_Return_0()
+        {
+            //assemble
+            int postion = -3;
+            int expectedValue = 0;
             Fibonacci fibonacci = new Fibonacci();
 
             //act
